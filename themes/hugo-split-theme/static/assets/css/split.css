@@ -99,20 +99,20 @@ a:hover {
     opacity: 1; } }
 
 html {
-  background-color: #061C30; }
+  background-color: ##dededd; }
 
 body.page-template-page-fullsingle-split {
-  background-color: #061C30;
+  background-color: ##dededd;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 21px;
   line-height: 33px;
   letter-spacing: -0.2px;
-  color: #848d96;
+  color: #949699;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
   body.page-template-page-fullsingle-split p {
-    color: #848d96; }
+    color: #949699; }
 
 .fs-split {
   width: 100vw;
@@ -164,7 +164,7 @@ body.page-template-page-fullsingle-split {
 
 .split-intro {
   font-weight: 600;
-  font-size: 64px;
+  font-size: 60px;
   line-height: 80px;
   letter-spacing: -2px; }
   .split-intro h1 {
@@ -174,7 +174,7 @@ body.page-template-page-fullsingle-split {
     line-height: 16px;
     margin-bottom: 40px;
     letter-spacing: 0.4px;
-    color: #47bec7; }
+    color: #2774c4; }
   .split-intro .tagline {
     color: #CCCCCC; }
 

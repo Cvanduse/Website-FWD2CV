@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://example.org/"
+baseURL = "/"
 languageCode = "en-US"
 title = "Split - HTML Template Demo"
 theme = "hugo-split-theme"
@@ -11,7 +11,7 @@ googleAnalytics = ""
 [params]
 
   # Metadata for search engines and social sharing
-  name = "Jenny Jones"
+  name = "Christopher Van Dusen"
   description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
   shareImage = "images/social.jpg"
   twitterHandle = "onepagelove"
@@ -20,12 +20,12 @@ googleAnalytics = ""
   favicon = "favicon.ico"
 
   # Copyright
-  copyright = "&copy;2017 Your Name"
+  copyright = "&copy;2018 Christopher Van Dusen"
 
   # Section - Content
   [params.content]
-    name = "Jenny Jones"
-    tagline = "Designer. Stylist. Nomad."
+    name = "Christopher Van Dusen"
+    tagline = "Detroit. Coffee. Keto."
     bio = "Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna](#) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in](#) malesuada congue, [purus sem](#) ullamcorper massa, sit amet lacinia nibh enim sed massa."
 
   # Section - Visual
@@ -53,7 +53,7 @@ googleAnalytics = ""
 
       [[params.links.list1.link]]
         text = "Blog"
-        url = "#"
+        url = "http://www.google.com"
 
       [[params.links.list1.link]]
         text = "Email"

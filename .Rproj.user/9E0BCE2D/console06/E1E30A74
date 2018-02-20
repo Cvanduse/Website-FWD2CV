@@ -30,3 +30,127 @@ usage: git add [<options>] [--] <pathspec>...
 ]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git init
 Reinitialized existing Git repository in /Users/christophervandusen/Library/Mobile Documents/com~apple~CloudDocs/Website/.git/
 ]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add -A
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git commit o[K0[K-m ""first commit"[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfirst commit"
+[master (root-commit) b5b6d9e] first commit
+ 57 files changed, 2581 insertions(+)
+ create mode 100644 .Rproj.user/9E0BCE2D/console06/E1E30A74
+ create mode 100644 .Rproj.user/9E0BCE2D/console06/E1E30A74.env
+ create mode 100644 .Rproj.user/9E0BCE2D/console06/INDEX001
+ create mode 100644 .Rproj.user/9E0BCE2D/sources/prop/3AEDDE59
+ create mode 100644 .Rproj.user/9E0BCE2D/sources/prop/INDEX
+ create mode 100644 .Rproj.user/9E0BCE2D/sources/s-8CF8C012/3FB8DF8A
+ create mode 100644 .Rproj.user/9E0BCE2D/sources/s-8CF8C012/3FB8DF8A-contents
+ create mode 100644 .Rproj.user/9E0BCE2D/sources/s-8CF8C012/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 Website.Rproj
+ create mode 100644 config.toml
+ create mode 100644 content/.gitkeep
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 content/post/2015-07-23-r-rmarkdown.html
+ create mode 100644 index.Rmd
+ create mode 100644 public/.gitkeep
+ create mode 100644 public/assets/css/split.css
+ create mode 100644 public/assets/sass/00-reset.scss
+ create mode 100644 public/assets/sass/01-content.scss
+ create mode 100644 public/assets/sass/split.scss
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/images/background.jpg
+ create mode 100644 public/images/social.jpg
+ create mode 100644 public/index.html
+ create mode 100644 public/post/2015-07-23-r-rmarkdown.Rmd
+ create mode 100644 public/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 public/videos/background.mp4
+ create mode 100644 static/.gitkeep
+ create mode 100644 static/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png
+ create mode 100644 themes/hugo-split-theme/.gitignore
+ create mode 100644 themes/hugo-split-theme/LICENSE.md
+ create mode 100644 themes/hugo-split-theme/README.md
+ create mode 100644 themes/hugo-split-theme/archetypes/default.md
+ create mode 100644 themes/hugo-split-theme/exampleSite/config.toml
+ create mode 100644 themes/hugo-split-theme/exampleSite/content/.gitkeep
+ create mode 100644 themes/hugo-split-theme/exampleSite/static/.gitkeep
+ create mode 100644 themes/hugo-split-theme/images/screenshot.png
+ create mode 100644 themes/hugo-split-theme/images/tn.png
+ create mode 100644 themes/hugo-split-theme/layouts/404.html
+ create mode 100644 themes/hugo-split-theme/layouts/_default/list.html
+ create mode 100644 themes/hugo-split-theme/layouts/_default/single.html
+ create mode 100644 themes/hugo-split-theme/layouts/index.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/bio.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/footer.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/head.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/intro.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/links.html
+ create mode 100644 themes/hugo-split-theme/layouts/partials/video.html
+ create mode 100644 themes/hugo-split-theme/static/assets/css/split.css
+ create mode 100644 themes/hugo-split-theme/static/assets/sass/00-reset.scss
+ create mode 100644 themes/hugo-split-theme/static/assets/sass/01-content.scss
+ create mode 100644 themes/hugo-split-theme/static/assets/sass/split.scss
+ create mode 100644 themes/hugo-split-theme/static/favicon.ico
+ create mode 100644 themes/hugo-split-theme/static/images/background.jpg
+ create mode 100644 themes/hugo-split-theme/static/images/social.jpg
+ create mode 100644 themes/hugo-split-theme/static/videos/background.mp4
+ create mode 100644 themes/hugo-split-theme/theme.toml
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git remote add origin https://github.com/Cvand use/Website-FWD2CV.git
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git push -u origin master
+Counting objects: 70, done.
+Delta compression using up to 4 threads.
+Compressing objects:   1% (1/55)   Compressing objects:   3% (2/55)   Compressing objects:   5% (3/55)   Compressing objects:   7% (4/55)   Compressing objects:   9% (5/55)   Compressing objects:  10% (6/55)   Compressing objects:  12% (7/55)   Compressing objects:  14% (8/55)   Compressing objects:  16% (9/55)   Compressing objects:  18% (10/55)   Compressing objects:  20% (11/55)   Compressing objects:  21% (12/55)   Compressing objects:  23% (13/55)   Compressing objects:  25% (14/55)   Compressing objects:  27% (15/55)   Compressing objects:  29% (16/55)   Compressing objects:  30% (17/55)   Compressing objects:  32% (18/55)   Compressing objects:  34% (19/55)   Compressing objects:  36% (20/55)   Compressing objects:  38% (21/55)   Compressing objects:  40% (22/55)   Compressing objects:  41% (23/55)   Compressing objects:  43% (24/55)   Compressing objects:  45% (25/55)   Compressing objects:  47% (26/55)   Compressing objects:  49% (27/55)   Compressing objects:  50% (28/55)   Compressing objects:  52% (29/55)   Compressing objects:  54% (30/55)   Compressing objects:  56% (31/55)   Compressing objects:  58% (32/55)   Compressing objects:  60% (33/55)   Compressing objects:  61% (34/55)   Compressing objects:  63% (35/55)   Compressing objects:  65% (36/55)   Compressing objects:  67% (37/55)   Compressing objects:  69% (38/55)   Compressing objects:  70% (39/55)   Compressing objects:  72% (40/55)   Compressing objects:  74% (41/55)   Compressing objects:  76% (42/55)   Compressing objects:  78% (43/55)   Compressing objects:  80% (44/55)   Compressing objects:  81% (45/55)   Compressing objects:  83% (46/55)   Compressing objects:  85% (47/55)   Compressing objects:  87% (48/55)   Compressing objects:  89% (49/55)   Compressing objects:  90% (50/55)   Compressing objects:  92% (51/55)   Compressing objects:  94% (52/55)   Compressing objects:  96% (53/55)   Compressing objects:  98% (54/55)   Compressing objects: 100% (55/55)   Compressing objects: 100% (55/55), done.
+Writing objects:   1% (1/70)   Writing objects:   2% (2/70)   Writing objects:   4% (3/70)   Writing objects:   5% (4/70)   Writing objects:   7% (5/70)   Writing objects:   8% (6/70)   Writing objects:  10% (7/70)   Writing objects:  11% (8/70)   Writing objects:  12% (9/70)   Writing objects:  14% (10/70)   Writing objects:  15% (11/70)   Writing objects:  17% (12/70)   Writing objects:  18% (13/70)   Writing objects:  20% (14/70)   Writing objects:  21% (15/70)   Writing objects:  22% (16/70)   Writing objects:  24% (17/70)   Writing objects:  25% (18/70)   Writing objects:  27% (19/70)   Writing objects:  28% (20/70)   Writing objects:  30% (21/70)   Writing objects:  31% (22/70)   Writing objects:  32% (23/70)   Writing objects:  34% (24/70)   Writing objects:  35% (25/70)   Writing objects:  37% (26/70)   Writing objects:  38% (27/70)   Writing objects:  40% (28/70)   Writing objects:  41% (29/70)   Writing objects:  42% (30/70)   Writing objects:  44% (31/70)   Writing objects:  45% (32/70)   Writing objects:  47% (33/70)   Writing objects:  48% (34/70)   Writing objects:  50% (35/70)   Writing objects:  51% (36/70)   Writing objects:  52% (37/70)   Writing objects:  54% (38/70)   Writing objects:  55% (39/70)   Writing objects:  57% (40/70)   Writing objects:  58% (41/70)   Writing objects:  60% (42/70)   Writing objects:  61% (43/70)   Writing objects:  62% (44/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  64% (45/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  65% (46/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  67% (47/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  68% (48/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  70% (49/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  71% (50/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  72% (51/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  74% (52/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  75% (53/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  77% (54/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  78% (55/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  80% (56/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  81% (57/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  82% (58/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  84% (59/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  85% (60/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  87% (61/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  88% (62/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  90% (63/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  91% (64/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  92% (65/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  94% (66/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  95% (67/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  97% (68/70), 1.07 MiB | 1.88 MiB/s   Writing objects:  98% (69/70), 1.07 MiB | 1.88 MiB/s   Writing objects: 100% (70/70), 1.07 MiB | 1.88 MiB/s   Writing objects: 100% (70/70), 2.75 MiB | 1.88 MiB/s, done.
+Total 70 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To https://github.com/Cvanduse/Website-FWD2CV.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git push
+Everything up-to-date
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ addin serve site
+bash: addin: command not found
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ add[K[K[Kgit add -A

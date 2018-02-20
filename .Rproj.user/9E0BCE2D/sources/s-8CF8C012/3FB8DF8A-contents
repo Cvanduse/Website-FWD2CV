@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "/"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Contact Christopher Van Dusen"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
@@ -70,15 +70,15 @@ googleAnalytics = ""
 
       [[params.links.list2.link]]
         text = "Twitter"
-        url = "#"
+        url = "https://twitter.com/FWD2CV"
 
       [[params.links.list2.link]]
         text = "Instagram"
-        url = "#"
+        url = "https://www.instagram.com/fwd2cv/"
 
       [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/cvanduse/"
 
   # Links List #3
   [[params.links]]

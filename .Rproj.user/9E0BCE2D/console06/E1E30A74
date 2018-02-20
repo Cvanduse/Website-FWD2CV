@@ -1,0 +1,32 @@
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/Website[?1034hChristophers-MacBook-Pro:Website christophervandusen$ [KChristophers-MacBook-Pro:Website christophervandusen$ git[K[K[Kgit init
+Initialized empty Git repository in /Users/christophervandusen/Library/Mobile Documents/com~apple~CloudDocs/Website/.git/
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add /a
+fatal: /a: '/a' is outside repository
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add [K[K[K[Kinit
+Reinitialized existing Git repository in /Users/christophervandusen/Library/Mobile Documents/com~apple~CloudDocs/Website/.git/
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add /a[K[K-a
+error: unknown switch `a'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git init
+Reinitialized existing Git repository in /Users/christophervandusen/Library/Mobile Documents/com~apple~CloudDocs/Website/.git/
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add -A

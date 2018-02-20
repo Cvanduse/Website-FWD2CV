@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519092468943.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2062964112",
+    "id" : "3FB8DF8A",
+    "lastKnownWriteTime" : 1519092465,
+    "last_content_update" : 1519092465,
+    "path" : "~/Library/Mobile Documents/com~apple~CloudDocs/Website/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

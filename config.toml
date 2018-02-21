@@ -25,8 +25,8 @@ googleAnalytics = ""
   # Section - Content
   [params.content]
     name = "Christopher Van Dusen"
-    tagline = "Detroit. Coffee. Keto."
-    bio = "Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna](#) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in](#) malesuada congue, [purus sem](#) ullamcorper massa, sit amet lacinia nibh enim sed massa."
+    tagline = "Made in Detroit.Loves Coffee.Fueled by Keto."
+    bio = "A Detroiter who is inspired by the hustle, loves building things from the rock bottom, and is constantly in search for another cup of coffee. Although I grew up on Motown, I actually prefer listening to Hip Hop and Jazz.  Rooted deep in the Motor City, but I still love to get out and explore different cities and experience new cultures.  Currently, cruising through life’s adventures, capturing moments and always moving forward."
 
   # Section - Visual
   [params.visual]

@@ -213,3 +213,37 @@ remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6) 
 To https://github.com/Cvanduse/Website-FWD2CV.git
    b5b6d9e..07fbfb5  master -> master
 ]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git add -A
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+	[32mmodified:   .Rproj.user/9E0BCE2D/sources/prop/3AEDDE59[m
+	[32mmodified:   .Rproj.user/9E0BCE2D/sources/prop/D3553A2[m
+	[32mmodified:   .Rproj.user/9E0BCE2D/sources/s-8CF8C012/334D6BBE[m
+	[32mmodified:   .Rproj.user/9E0BCE2D/sources/s-8CF8C012/3FB8DF8A[m
+	[32mmodified:   .Rproj.user/9E0BCE2D/sources/s-8CF8C012/3FB8DF8A-contents[m
+	[32mmodified:   config.toml[m
+	[32mmodified:   public/index.html[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/9E0BCE2D/console06/E1E30A74[m
+
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git commit -, [K[Km "S[Ksocial media"
+[master b68e70f] social media
+ 8 files changed, 87 insertions(+), 28 deletions(-)
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ git push
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/16)   Compressing objects:  12% (2/16)   Compressing objects:  18% (3/16)   Compressing objects:  25% (4/16)   Compressing objects:  31% (5/16)   Compressing objects:  37% (6/16)   Compressing objects:  43% (7/16)   Compressing objects:  50% (8/16)   Compressing objects:  56% (9/16)   Compressing objects:  62% (10/16)   Compressing objects:  68% (11/16)   Compressing objects:  75% (12/16)   Compressing objects:  81% (13/16)   Compressing objects:  87% (14/16)   Compressing objects:  93% (15/16)   Compressing objects: 100% (16/16)   Compressing objects: 100% (16/16), done.
+Writing objects:   6% (1/16)   Writing objects:  12% (2/16)   Writing objects:  18% (3/16)   Writing objects:  25% (4/16)   Writing objects:  31% (5/16)   Writing objects:  37% (6/16)   Writing objects:  43% (7/16)   Writing objects:  50% (8/16)   Writing objects:  56% (9/16)   Writing objects:  62% (10/16)   Writing objects:  68% (11/16)   Writing objects:  75% (12/16)   Writing objects:  81% (13/16)   Writing objects:  87% (14/16)   Writing objects:  93% (15/16)   Writing objects: 100% (16/16)   Writing objects: 100% (16/16), 2.81 KiB | 0 bytes/s, done.
+Total 16 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/Cvanduse/Website-FWD2CV.git
+   07fbfb5..b68e70f  master -> master
+]0;~/Library/Mobile Documents/com~apple~CloudDocs/WebsiteChristophers-MacBook-Pro:Website christophervandusen$ [KChristophers-MacBook-Pro:Website christophervandusen$ [KChristophers-MacBook-Pro:Website christophervandusen$ git add -A
